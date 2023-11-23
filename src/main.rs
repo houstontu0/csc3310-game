@@ -183,5 +183,5 @@ fn main() {
     println!("SUM PLAYER: {}\n", user_cards.get_sum());
 
     let winner = get_winner(user_cards.get_sum(), dealer_cards.get_sum());
-    print!("{winner} won the game!");
+    print!("{winner} won the game!\n");
 }
