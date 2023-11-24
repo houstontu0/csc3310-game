@@ -9,7 +9,7 @@ fn get_select_option() -> usize {
     let selections = &["Hit Me!", "I'll Stay"];
 
     let selection = Select::with_theme(&ColorfulTheme::default())
-        .with_prompt("Are you feeling lucky? Pick an option:")
+        .with_prompt("Are you feeling lucky? Choose an option:")
         .default(0)
         .items(&selections[..])
         .interact()
@@ -108,13 +108,15 @@ impl PlayerCardList {
 
     fn print_first_card(&mut self) {
         let first_card = &self.0[0];
+        println!("==================================\n");
         println!("DEALERS cards:\n");
         println!("Card: {} -> Value: {}", first_card, first_card.value());
         println!("Card: {} -> Value: {}\n", "???", "???");
     }
 
     fn print_cards(&mut self, player: Players) {
-        println!("Cards from {}:\n", player);
+        println!("==================================\n");
+        println!("Cards for {}:\n", player);
         for card in &self.0 {
             println!("Card: {} -> Value: {}", card, card.value());
         }
