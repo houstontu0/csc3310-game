@@ -111,7 +111,7 @@ impl PlayerCardList {
         println!("==================================\n");
         println!("DEALERS cards:\n");
         println!("Card: {} -> Value: {}", first_card, first_card.value());
-        println!("Card: {} -> Value: {}\n", "???", "???");
+        println!("Card: {} -> Value: {}\n", "[HIDDEN]", "[HIDDEN]");
     }
 
     fn print_cards(&mut self, player: Players) {
