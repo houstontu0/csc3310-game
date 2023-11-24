@@ -9,7 +9,12 @@ Make sure you have rust and cargo installed
 - Fork this repo into your desired directory
 - Run 'cargo run' within your IDE's terminal or within the root directory.
 ## Screenshots of the game working
+After 'cargo run':
+
 ![BlackJack start up](image.png)
+
+
+After you "hit":
 
 ![BlackJack winner](image-1.png)
 
