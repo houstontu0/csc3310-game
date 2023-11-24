@@ -16,13 +16,12 @@ within your IDE's terminal or within the root directory.
 ## Screenshots of the game working (sample gameplay)
 After 'cargo run':
 
-![BlackJack start up](image.png)
+![Alt text](image-2.png)
 
 
 After you "stayed":
 
-![BlackJack winner](image-1.png)
+![Alt text](image-3.png)
 
-In this case, you remained at 20 while the the dealer only has 18. You win
-- The first 4 lines represent the dealer's randomized hand.
-- The last 4 lines represent your hand.
+In this case, you hit twice and remained at 19. The dealer also gets 19. House rules. You lose.
+
