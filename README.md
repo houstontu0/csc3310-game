@@ -7,7 +7,7 @@ Beat the dealer by getting as close as you can to 21!
 ## How to play
 Make sure you have [Rust](https://www.rust-lang.org) and [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html) installed.
 - Fork this repo into your desired directory
-- To play this game, run
+- To play this game, run:
 ```
 cargo run
 ```
