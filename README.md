@@ -12,5 +12,6 @@ Make sure you have rust and cargo installed
 ![BlackJack start up](image.png)
 
 ![BlackJack winner](image-1.png)
+
 The first 4 lines represent the dealer's randomized hand.
 The last 4 lines represent your hand.
