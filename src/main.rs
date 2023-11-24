@@ -9,7 +9,7 @@ fn get_select_option() -> usize {
     let selections = &["Hit Me!", "I'll Stay"];
 
     let selection = Select::with_theme(&ColorfulTheme::default())
-        .with_prompt("Pick an option:")
+        .with_prompt("Are you feeling lucky? Pick an option:")
         .default(0)
         .items(&selections[..])
         .interact()
