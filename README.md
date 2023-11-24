@@ -16,12 +16,12 @@ within your IDE's terminal or within the root directory.
 ## Screenshots of the game working (sample gameplay)
 After 'cargo run':
 
-![Alt text](image-4.png)
+![Blackjack terminal startup](image-4.png|width 100)
 
 
 After you "stayed":
 
-![Alt text](image-5.png)
+![Blackjack loss](image-5.png|width 100)
 
 In this case, you hit once and remained at 18. The dealer revealed they had 19. You lose.
 
