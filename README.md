@@ -5,9 +5,14 @@ A simple BlackJack game in the works that can be run from within the terminal.
 Beat the dealer by getting as close as you can to 21!
 
 ## How to play
-Make sure you have rust and cargo installed
+Make sure you have [Rust](https://www.rust-lang.org) and [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html) installed.
 - Fork this repo into your desired directory
-- Run 'cargo run' within your IDE's terminal or within the root directory.
+- To play this game, run
+```
+cargo run
+```
+within your IDE's terminal or within the root directory.
+
 ## Screenshots of the game working (sample gameplay)
 After 'cargo run':
 
