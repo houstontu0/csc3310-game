@@ -16,12 +16,12 @@ within your IDE's terminal or within the root directory.
 ## Screenshots of the game working (sample gameplay)
 After 'cargo run':
 
-![Alt text](image-2.png)
+![Alt text](image-4.png)
 
 
 After you "stayed":
 
-![Alt text](image-3.png)
+![Alt text](image-5.png)
 
-In this case, you hit twice and remained at 19. The dealer also gets 19. House rules. You lose.
+In this case, you hit once and remained at 18. The dealer revealed they had 19. You lose.
 
